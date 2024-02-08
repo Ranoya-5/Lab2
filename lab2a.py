@@ -20,5 +20,12 @@ def print_script_and_variables():
     else:
         print("Please provide only three arguments including script name.")
 
+# Add NEW function
+def helloWorld():
+        print(‘Hello World’)
+
+
 if __name__ == '__main__':
     print_script_and_variables()
+
+    helloWorld()
